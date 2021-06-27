@@ -1,0 +1,7 @@
+{
+  "name": "jisho-download-audio",
+  "private": true,
+  "devDependencies": {
+    "web-ext": "^6.2.0"
+  }
+}
