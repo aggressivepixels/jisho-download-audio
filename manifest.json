@@ -6,7 +6,7 @@
   "icons": { "48": "icon.png" },
   "content_scripts": [
     {
-      "matches": ["*://jisho.org/search/*"],
+      "matches": ["*://jisho.org/search/*", "*://jisho.org/word/*"],
       "js": ["add-download-button.js"]
     }
   ]
