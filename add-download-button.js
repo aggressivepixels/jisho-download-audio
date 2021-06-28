@@ -8,6 +8,7 @@ document.querySelectorAll("a.concept_audio").forEach(function (el) {
   download.download = source.src.split("/").pop();
   download.href = source.src;
   download.innerHTML = "Download audio";
+  download.target = "_blank";
 
   el.parentNode.insertBefore(download, el.nextSibling);
 });
