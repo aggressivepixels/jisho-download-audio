@@ -1,6 +1,9 @@
 {
   "name": "jisho-download-audio",
   "private": true,
+  "scripts": {
+    "build": "web-ext --config=web-ext-config.js build"
+  },
   "devDependencies": {
     "web-ext": "^6.2.0"
   }
